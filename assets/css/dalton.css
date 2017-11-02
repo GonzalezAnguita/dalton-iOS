@@ -1,0 +1,90 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#myCarousel {
+    margin-bottom: 30px;
+}
+
+#myCarousel .carousel-caption {
+    left:315px;
+	right:15px;
+	top:40px;
+	bottom:40px;
+	padding:10px;
+	text-shadow:none;
+}
+
+#myCarousel .carousel-caption > h4 {
+    color: #023660;
+    text-align: left;
+}
+
+#myCarousel .carousel-caption > p {
+    color: black;
+    text-align: justify;
+}
+
+#myCarousel .list-group {
+	position:absolute;
+	top:40px;
+	right:0;
+}
+#myCarousel .list-group-item {
+	border-radius:0;
+	cursor:pointer;
+    border: none;
+}
+#myCarousel .list-group .active {
+	background-color:#eee;
+    color: #023660;
+    border-left: 6px solid #023660;
+}
+
+#myCarousel img {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;}
+}
+@media (max-width: 991px) {
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;}
+
+    #myCarousel .carousel-caption {display:none;}
+
+    #myCarousel img {
+        margin: auto;
+    }
+}
+.appheader {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.appicon {
+    margin-right: 20px;
+    width: 40px;
+}
+
+.appname {
+    display: inline;
+    vertical-align: middle;
+}
+
+.card {
+    border-left: 6px solid #023660;
+    padding-left: 15px;
+}
+
+.card > h4 {
+    color: #023660;
+}
+
+.card > p {
+    color: black;
+}
