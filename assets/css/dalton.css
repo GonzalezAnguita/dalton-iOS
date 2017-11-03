@@ -41,6 +41,11 @@ body {
     border-left: 6px solid #023660;
 }
 
+#myCarousel .list-group img{
+	height: 50px;
+    width: auto;
+}
+
 #myCarousel img {
     width: 300px;
     height: auto;
