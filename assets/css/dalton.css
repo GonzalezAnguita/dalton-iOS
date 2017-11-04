@@ -53,19 +53,17 @@ body {
     overflow: hidden;
 }
 
-.dalton-carousel-controls {
-    background-image: none;
+.carousel-control-prev > i, .carousel-control-next > i {
+    font-size: 30px;
+    color: black;
 }
 
-.dalton-carousel-controls > a {
-    background-image: none !important;
-    font-size: 30px !important;
-}
 @media (min-width: 992px) {
 	#myCarousel {padding-right:33.3333%;}
 }
 @media (max-width: 767px) {
     #myCarousel img {
+        display: block;
         margin: auto;
         max-width: 270px;
         height: auto;
@@ -141,14 +139,12 @@ body {
 
 
 .card {
+    border: none;
+    border-radius: 0;
     border-left: 6px solid #023660;
     padding-left: 15px;
 }
 
-.card > h4 {
-    color: #023660;
-}
-
-.card > p {
-    color: black;
+.card-title {
+    color: #023660 !important;
 }
